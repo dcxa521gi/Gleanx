@@ -1,8 +1,6 @@
 # Gleanx 软件介绍与使用说明
-
-> 当前版本：v1.0.16  
-> 适用系统：Windows 10 / Windows 11  
-> 下载入口：https://github.com/dcxa521gi/Gleanx/releases/latest
+适用系统：Windows 10 / Windows 11  
+下载入口：https://github.com/dcxa521gi/Gleanx/releases/latest
 
 ## 1. 软件定位
 
