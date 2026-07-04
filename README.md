@@ -10,17 +10,18 @@
   <a href="https://github.com/dcxa521gi/Gleanx/releases/latest"><img src="https://img.shields.io/github/v/release/dcxa521gi/Gleanx?label=latest&color=7c3aed" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/platform-Windows-2563eb" alt="Windows">
   <img src="https://img.shields.io/badge/client-Electron%20%2B%20React-14b8a6" alt="Electron React">
-  <img src="https://img.shields.io/badge/backend-PHP%20%2B%20MySQL-f59e0b" alt="PHP MySQL">
-  <img src="https://img.shields.io/badge/miniapp-WeChat-22c55e" alt="WeChat Mini Program">
+  <img src="https://img.shields.io/badge/focus-Local%20Productivity-14b8a6" alt="Local Productivity">
 </p>
 
-Gleanx 是一套以 Windows 客户端为核心的本地效率工具，围绕剪切板、备忘录、心迹、AI 图库、定时壁纸、网址导航、通知、账号权益和端到端同步，帮助用户把日常复制、整理、记录和回看变成可持续的个人知识流。
+Gleanx 是一款面向 Windows 用户的本地效率工具。它不是单纯的剪切板记录器，而是把复制、整理、回看、提醒、生成和复用串起来的个人工作台。
 
-项目包含：
+如果你经常遇到这些问题，Gleanx 适合补上这块能力：
 
-- Windows 桌面客户端：本地剪切板、AI 心迹、备忘录、壁纸、图库、通知和数据管理。
-- PHP 后端：账号、会员、积分、勋章、公告、反馈、社区审核、网址导航、软件配置和后台管理。
-- 微信小程序：移动端访问、账号绑定、云同步和轻量数据查看。
+- 复制过的文字、图片、文件、链接很快找不到。
+- 临时素材散落在聊天、浏览器、桌面和下载目录里。
+- 想把每天做过什么、复制过什么、整理成可回看的记录。
+- 希望图片、截图和文件能自动归类、预览和再次打开。
+- 想要一个轻量的本地工具，把备忘录、壁纸、通知、图库、网址和数据备份放在一起。
 
 ## 下载
 
@@ -28,163 +29,90 @@ Gleanx 是一套以 Windows 客户端为核心的本地效率工具，围绕剪�
 
 [Gleanx Releases](https://github.com/dcxa521gi/Gleanx/releases/latest)
 
-自动更新文件随 Release 提供：
-
-- `Gleanx-Setup-*.exe`
-- `Gleanx-Setup-*.exe.blockmap`
-- `latest.yml`
-
 ## 产品预览
 
 <p align="center">
   <img src=".github/readme/product-cover-homepage.png" alt="Gleanx 客户端界面预览" width="100%">
 </p>
 
-## 核心功能
+## 客户端核心功能
 
-| 模块 | 能力 |
+| 功能 | 能解决的问题 |
 | --- | --- |
-| 剪切板 | 自动记录文本、图片、音频、视频、代码和文件；支持搜索、筛选、置顶、快捷复制、重复内容合并、OCR 标题整理和附件直接打开。 |
-| 右键菜单 | 管理 Windows 右键菜单项，减少无效入口，保持系统菜单清爽。 |
-| 开机启动 | 查看和管理 Windows 与 Gleanx 管理的启动项，支持启停和恢复。 |
-| 定时任务 | 创建一次性、每日、每周和间隔任务，支持提醒和执行状态管理。 |
-| 桌面整理 | 一键整理桌面文件，降低桌面文件堆积成本。 |
-| 定时壁纸 | 本地壁纸轮换、AI 文生图、图生图、壁纸社区、分类、点赞、收藏和下载记录。 |
-| 网址导航 | 私有网址本地保存，共享网址提交审核；支持分类、收藏、评论、点击统计和浏览器书签导入。 |
-| 软件通知 | 聚合公告、积分变化、审核结果、升级提醒等软件通知。 |
-| 心迹 | 基于每日使用轨迹生成 AI 日报和心迹海报，支持文字风格、海报风格、长图查看和本地隐私保存。 |
-| AI 图库 | 集中查看 AI 壁纸、心迹海报和节日海报，支持放大、复制、下载和定位原图。 |
-| 备忘录 | 备忘录、四象限、密码本、标签、定时提醒、锁定内容和桌面贴图。 |
-| 数据管理 | 本地数据导入、导出、迁移、备份、清理和恢复。 |
-| 账号中心 | 官方账号、观猹/微信第三方登录、会员、签到积分、用户等级、勋章、任务和积分商城。 |
+| 剪切板记录 | 自动记录文本、图片、音频、视频、代码和文件，避免复制后找不到。 |
+| 智能分类 | 按文本、图片、音频、视频、代码、文件等类型归类，减少手动整理。 |
+| OCR 识别 | 对截图和图片内容进行文字识别，整理出更易读的标题和摘要。 |
+| 重复内容合并 | 重复复制同一内容时不反复新增记录，而是前移已有记录并累计复制次数。 |
+| 附件直接打开 | 图片、视频、音频、代码和普通文件可直接打开原文件，原文件失效时使用缓存副本。 |
+| 搜索与筛选 | 支持按关键词、类型、日期快速定位剪切板历史。 |
+| 置顶与快捷复制 | 常用内容可置顶、设置快捷键，减少重复查找。 |
+| 返回顶部 | 长列表滚动后显示悬浮回顶按钮，快速回到最新内容。 |
+| 心迹 | 根据每日使用轨迹生成 AI 总结和心迹海报，用于回看一天的工作与灵感。 |
+| 心迹海报 | 支持不同回复风格、海报风格、长图查看、复制和下载。 |
+| AI 图库 | 集中查看心迹海报、AI 壁纸和节日海报，方便复用生成结果。 |
+| 定时壁纸 | 支持本地壁纸轮换、AI 壁纸生成、图生图和定时切换。 |
+| 网址导航 | 保存常用网址、整理分类、记录点击和收藏，补足浏览器收藏夹不够灵活的问题。 |
+| 备忘录 | 支持备忘录、四象限、密码本、标签、定时提醒、锁定内容和桌面贴图。 |
+| 软件通知 | 聚合软件公告、积分变化、审核结果、升级提醒等通知。 |
+| 数据管理 | 支持本地数据导出、导入、迁移、备份、恢复和清理。 |
+| 开机启动 | 管理 Windows 和软件相关启动项，减少无效自启动。 |
+| 定时任务 | 创建一次性、每日、每周和间隔任务，补足轻量自动提醒需求。 |
+| 桌面整理 | 一键整理桌面文件，降低桌面文件堆积带来的查找成本。 |
 
-## 系统结构
+## 典型使用场景
+
+### 1. 复制内容太多，事后找不到
+
+Gleanx 会自动记录复制过的文本、图片、链接和文件，并按时间线展示。你可以通过搜索、类型筛选、日期筛选快速找回内容。
+
+### 2. 截图里有文字，但标题很乱
+
+图片进入剪切板后，Gleanx 会尝试 OCR 识别并整理标题、摘要，让截图不只是“某个 png 文件”，而是可以被搜索和回看的内容。
+
+### 3. 每天工作很多，但没有沉淀
+
+心迹功能会基于当天轨迹生成总结和海报，让复制、整理、浏览过的内容形成每日回顾。
+
+### 4. 本地素材越来越散
+
+AI 图库、定时壁纸、网址导航、备忘录和数据管理把常用数字资料集中在一个客户端里，减少跨工具查找。
+
+### 5. 不想把隐私内容到处上传
+
+Gleanx 优先以本地保存为主。心迹正文、海报路径和生成内容仅保存在本机，不作为公开内容上传。
+
+## 功能结构
 
 ```mermaid
 flowchart LR
-  subgraph Client["Windows 客户端"]
-    Clipboard["剪切板 / OCR / 附件"]
-    Heartprint["心迹 / 海报 / AI 图库"]
-    Memo["备忘录 / 任务 / 通知"]
-    LocalData["本地数据与加密缓存"]
-  end
-
-  subgraph Server["PHP 后端"]
-    Account["账号 / 会员 / 积分"]
-    Admin["后台管理"]
-    Community["壁纸社区 / 网址导航 / 审核"]
-    Sync["端到端加密同步密文"]
-  end
-
-  subgraph Miniapp["微信小程序"]
-    Mobile["移动端查看与账号绑定"]
-  end
-
-  Clipboard --> LocalData
-  Heartprint --> LocalData
-  Memo --> LocalData
-  LocalData -->|可选：端到端加密同步| Sync
-  Client -->|登录、公告、权益、社区接口| Server
-  Miniapp -->|账号与同步接口| Server
-  Admin --> Account
-  Admin --> Community
+  Copy["复制内容"] --> Clipboard["剪切板记录"]
+  Clipboard --> Classify["分类 / 搜索 / 筛选"]
+  Clipboard --> OCR["图片 OCR"]
+  Clipboard --> Reuse["再次复制 / 打开文件 / 置顶"]
+  Clipboard --> Heartprint["心迹总结"]
+  Heartprint --> Poster["心迹海报"]
+  Poster --> Gallery["AI 图库"]
+  Wallpaper["定时壁纸 / AI 壁纸"] --> Gallery
+  Memo["备忘录 / 四象限 / 密码本"] --> Reminder["提醒与桌面贴图"]
+  Website["网址导航"] --> Reuse
+  Data["数据管理"] --> Backup["导入 / 导出 / 迁移 / 备份"]
 ```
 
-## 隐私与数据边界
+## 隐私与本地数据
 
-Gleanx 优先保证本地数据可控：
+- Gleanx 的核心使用体验以本地数据为中心。
+- 心迹生成结果仅保存在本机，不上传心迹正文、海报路径或生成内容。
+- 本地数据支持备份、迁移和恢复。
+- 使用任何同步、登录或扩展能力前，请确认自己理解对应的数据范围。
 
-- 剪切板、备忘录、心迹、海报等核心数据默认保存在本机。
-- 心迹生成内容涉及隐私，客户端仅本地保存，不上传心迹正文、海报路径或生成内容到服务器。
-- 云同步采用端到端加密设计，服务端保存的是同步密文和必要元数据。
-- 后端安装包和增量包不应包含 `.env`、安装锁、运行数据和用户存储目录。
+## 适合谁使用
 
-## 后台管理能力
+Gleanx 适合这些 Windows 用户：
 
-后端后台用于配置和运营 Gleanx：
-
-- 用户、会员、等级、积分、勋章、任务、兑换订单。
-- 软件公告、软件信息、登录配置、AI 接口、邮箱、支付、小程序配置。
-- 壁纸社区、网址导航、教程、客户端规则、客户端关于页。
-- OSS 存储、审计日志、版本分布和运营概览。
-
-## 技术栈
-
-| 端 | 技术 |
-| --- | --- |
-| Windows 客户端 | Electron、React、TypeScript、Vite、Tailwind CSS、electron-builder |
-| 本地能力 | Windows 剪切板、文件系统、系统通知、自动更新、Tesseract.js OCR |
-| 后端 | PHP、MySQL、文件/OSS 存储、后台管理页 |
-| 小程序 | uni-app、微信小程序、TypeScript |
-| 同步与安全 | AES-256-GCM、scrypt、恢复码、可信设备、端到端加密同步 |
-
-## 本地开发
-
-安装依赖：
-
-```bash
-npm install
-```
-
-启动开发模式：
-
-```bash
-npm run dev
-```
-
-构建 Windows 客户端与后端完整包：
-
-```bash
-npm run build
-```
-
-生成后端增量包：
-
-```bash
-npm run build:server-update
-```
-
-生成微信小程序包：
-
-```bash
-npm run build:miniapp
-```
-
-执行核心验证：
-
-```bash
-npm test
-```
-
-## 交付物
-
-常规发布会生成以下文件：
-
-- Windows 安装包：`dist/Gleanx-Setup-<version>.exe`
-- 自动更新 blockmap：`dist/Gleanx-Setup-<version>.exe.blockmap`
-- 自动更新元数据：`dist/latest.yml`
-- 后端完整包：`dist/Gleanx-Server-<version>.zip`
-- 后端增量包：`dist/Gleanx-Server-Update-<version>.zip`
-- 小程序包：`dist/Gleanx-MiniProgram-<version>.zip`
-- SHA-256 清单：`dist/Gleanx-<version>-SHA256.txt`
-
-## 部署说明
-
-后端部署和升级请参考 `docs/` 目录中的版本升级说明。生产环境部署前请先备份：
-
-- 数据库
-- `.env`
-- `storage`
-- OSS / 对象存储
-- 当前线上程序目录
-
-增量包不得覆盖运行数据、密钥、安装锁或用户文件。
-
-## 项目定位
-
-Gleanx 不是单一剪切板工具，而是一个围绕“复制、整理、回看、同步、复用”的个人效率系统。
-
-它适合需要长期整理素材、灵感、文件、链接、AI 生成结果和日常工作轨迹的 Windows 用户。
+- 经常处理大量复制内容、截图、链接和文件。
+- 需要把工作素材、灵感和日常记录沉淀下来。
+- 希望本地优先，不想把所有私人内容交给在线工具。
+- 喜欢一个轻量桌面工作台，而不是在多个小工具之间来回切换。
 
 ---
 
