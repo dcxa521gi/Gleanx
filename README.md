@@ -2,6 +2,9 @@
 
 > 把复制、整理、回看、提醒和生成集中在一个 Windows 客户端里。
 
+开发者微信：Sugar_hyl，添加开发者反馈问题，提交想法，加入群聊。
+
+
 <p align="center">
   <img src=".github/readme/product-cover.png" alt="Gleanx 产品封面" width="100%">
 </p>
