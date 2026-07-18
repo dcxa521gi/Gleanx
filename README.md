@@ -4,6 +4,12 @@
 
 开发者微信：Sugar_hyl，添加开发者反馈问题，提交想法，加入群聊。
 
+<p align="center">
+  <img src=".github/readme/wechat-qr.jpg" alt="开发者微信二维码" width="240">
+  <br>
+  <sub>扫码添加开发者微信，反馈问题、提供想法、进入用户群。</sub>
+</p>
+
 
 <p align="center">
   <img src=".github/readme/product-cover.png" alt="Gleanx 产品封面" width="100%">
@@ -132,3 +138,9 @@ flowchart LR
 
 - 作者：来日方长
 - 开发者微信：`Sugar_hyl`
+
+<p align="center">
+  <img src=".github/readme/wechat-qr.jpg" alt="开发者微信二维码" width="240">
+  <br>
+  <sub>扫码添加开发者微信，反馈问题、提供想法、进入用户群。</sub>
+</p>
