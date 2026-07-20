@@ -13,6 +13,12 @@
   <img src="https://img.shields.io/badge/version-1.5.0-7c3aed" alt="Gleanx 1.5.0">
 </p>
 
+<p align="center">
+  <img src=".github/readme/developer-wechat.png" alt="开发者微信二维码" width="180">
+  <br>
+  <sub>扫码添加开发者微信，反馈问题、交流需求或进群。</sub>
+</p>
+
 Gleanx 是一款面向 Windows 用户的本地效率客户端。它不只是剪切板历史工具，而是把复制记录、图片 OCR、素材整理、心迹海报、备忘录、定时任务、网址导航、桌面整理、插件市场和数据备份放到一个统一工作台里。
 
 如果你经常遇到这些问题，Gleanx 可以补上这块能力：
@@ -125,3 +131,9 @@ flowchart LR
 
 - 作者：来日方长
 - 开发者微信：`Sugar_hyl`
+
+<p align="center">
+  <img src=".github/readme/developer-wechat.png" alt="开发者微信二维码" width="200">
+  <br>
+  <sub>扫码添加开发者微信，反馈问题、交流需求或进群。</sub>
+</p>
