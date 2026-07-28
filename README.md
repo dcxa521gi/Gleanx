@@ -16,7 +16,7 @@
   <a href="https://github.com/dcxa521gi/Gleanx/releases/latest"><img src="https://img.shields.io/github/v/release/dcxa521gi/Gleanx?label=latest&color=7c3aed" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/platform-Windows-2563eb" alt="Windows">
   <img src="https://img.shields.io/badge/client-Electron%20%2B%20React-14b8a6" alt="Electron React">
-  <img src="https://img.shields.io/badge/version-1.6.0-7c3aed" alt="Gleanx 1.6.0">
+  <img src="https://img.shields.io/badge/version-1.6.2-7c3aed" alt="Gleanx 1.6.2">
 </p>
 
 Gleanx 是一款面向 Windows 用户的本地效率客户端。它不只是剪切板历史工具，而是把复制记录、图片 OCR、素材整理、心迹海报、备忘录、定时任务、网址导航、桌面管理、插件市场和数据备份放到一个统一工作台里。
@@ -60,9 +60,20 @@ Gleanx 是一款面向 Windows 用户的本地效率客户端。它不只是剪�
 | 系统优化 | 统一收纳右键菜单、开机启动、定时任务、桌面管理和定时壁纸。 |
 | 数据管理 | 支持本地数据导出、导入、迁移、备份、恢复和清理。 |
 
-## Gleanx 1.6.0 更新重点
+## Gleanx 1.6.2 更新重点
 
-本次 GitHub 公共版本将 1.3.4 至 1.6.0 的客户端更新统一归类为 1.6.0。
+本次 GitHub 公共版本在 1.6.0 客户端能力基础上，继续补齐赞助等级、服务端 AI 心迹额度、支付状态同步和任务反馈细节。
+
+- 赞助等级展示服务端 AI 心迹生成月额度与剩余次数。
+- 未配置自有 AI 时，登录用户可按赞助权益使用服务端 AI 生成心迹。
+- 优化微信和支付宝支付按钮排版，支付成功后个人中心实时刷新赞助等级并显示明确成功提示。
+- 权益兑换支持心迹 AI 生成次数，日、周、月、年心迹统一优先使用赞助等级服务端 AI 次数。
+- 支付状态增加主动同步补偿，减少支付完成后权益显示延迟。
+- 任务奖励领取结果与错误改为在任务弹窗内反馈。
+- 邀请文案复制成功或失败改为在邀请弹窗内反馈。
+- 修复新建惊喜掉落库存充足却提示“该项奖励库存已领完”的问题。
+
+1.6.0 至 1.6.2 仍保留以下客户端更新：
 
 - 惊喜掉落体验继续完善，弹窗布局更稳定，奖励类型统一显示中文，领取结果逐项显示，不会因为单项失败影响其他奖励到账。
 - 新增“我的礼包”入口，积分、经验、勋章自动到账，优惠券、兑换码和实物奖励可在个人中心集中查看和使用。
