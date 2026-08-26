@@ -16,7 +16,7 @@
   <a href="https://github.com/dcxa521gi/Gleanx/releases/latest"><img src="https://img.shields.io/github/v/release/dcxa521gi/Gleanx?label=latest&color=7c3aed" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/platform-Windows-2563eb" alt="Windows">
   <img src="https://img.shields.io/badge/client-Electron%20%2B%20React-14b8a6" alt="Electron React">
-  <img src="https://img.shields.io/badge/version-2.2.0-7c3aed" alt="Gleanx 2.2.0">
+  <img src="https://img.shields.io/badge/version-2.3.0-7c3aed" alt="Gleanx 2.3.0">
 </p>
 
 Gleanx 是一款面向 Windows 用户的本地效率客户端。它不只是剪切板历史工具，而是把复制记录、图片 OCR、素材整理、心迹海报、备忘录、定时任务、网址导航、桌面管理、插件市场和数据备份放到一个统一工作台里。
@@ -78,16 +78,16 @@ Gleanx 是一款面向 Windows 用户的本地效率客户端。它不只是剪�
 | 系统优化 | 统一收纳右键菜单、开机启动、定时任务、桌面管理和定时壁纸。 |
 | 数据管理 | 支持本地数据导出、导入、迁移、备份、恢复和清理。 |
 
-## Gleanx 2.2.0 更新重点
+## Gleanx 2.3.0 更新重点
 
-本次公开版本继续完善 Windows 客户端的内容整理、AI 生图、功能引导和邀请体验。
+本次公开版本重点降低长期后台运行时的网络占用，并完善软件内更新和开机启动体验。
 
-- 剪切板长内容编辑窗口更宽、更高，编辑和整理大段文本更方便。
-- AI 生图支持自定义接口；心迹 AI 海报、节日 AI 海报和定时壁纸可统一使用选中的生图服务。
-- 功能引导教程适配当前界面，清晰区分核心功能和可按需安装的功能模块。
-- 首次安装或升级后主动提醒新增设置，可直接配置站内信与软件更新弹窗。
-- 邀请好友增加受邀用户列表，每页 10 条，可查看用户 ID、邮箱、赞助等级、邀请时间和奖励状态。
-- 延续天气中心、剪切板收藏、密钥保护、端到端加密云备份、托盘启动和 OCR 资源释放等长期使用体验。
+- 降低权益、通知、反馈、公告、模块目录和版本检测的后台请求频率，窗口隐藏或长时间空闲时自动进入低频刷新。
+- 支持 ETag/304 与重复请求合并，内容没有变化时不再反复下载相同数据。
+- 设备控制未启用或没有有效规则时停止高频命令轮询，减少后台网络和资源占用。
+- 软件更新支持主源与备用源自动回退，继续在 Gleanx 内完成下载、校验和重启安装。
+- 增加中文版本提醒和最低支持版本提示，旧版本需要升级时可直接进入软件内更新流程。
+- 修复开机启动可能唤醒主窗口的问题，开机后默认只在系统托盘运行。
 
 ## 典型使用场景
 
