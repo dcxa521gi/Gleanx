@@ -16,7 +16,7 @@
   <a href="https://github.com/dcxa521gi/Gleanx/releases/latest"><img src="https://img.shields.io/github/v/release/dcxa521gi/Gleanx?label=latest&color=7c3aed" alt="Latest release"></a>
   <img src="https://img.shields.io/badge/platform-Windows-2563eb" alt="Windows">
   <img src="https://img.shields.io/badge/client-Electron%20%2B%20React-14b8a6" alt="Electron React">
-  <img src="https://img.shields.io/badge/version-2.3.0-7c3aed" alt="Gleanx 2.3.0">
+  <img src="https://img.shields.io/badge/version-2.4.0-7c3aed" alt="Gleanx 2.4.0">
 </p>
 
 Gleanx 是一款面向 Windows 用户的本地效率客户端。它不只是剪切板历史工具，而是把复制记录、图片 OCR、素材整理、心迹海报、备忘录、定时任务、网址导航、桌面管理、插件市场和数据备份放到一个统一工作台里。
@@ -34,6 +34,8 @@ Gleanx 是一款面向 Windows 用户的本地效率客户端。它不只是剪�
 最新 Windows 客户端请前往：
 
 [Gleanx Releases](https://github.com/dcxa521gi/Gleanx/releases/latest)
+
+当前版本：2.4.0。支持软件内下载、校验和重启安装；GitCode 备用下载源将在完整附件发布并验证后提供。已安装早期同版本测试包的用户请手动覆盖安装。
 
 ## 产品预览
 
@@ -78,9 +80,15 @@ Gleanx 是一款面向 Windows 用户的本地效率客户端。它不只是剪�
 | 系统优化 | 统一收纳右键菜单、开机启动、定时任务、桌面管理和定时壁纸。 |
 | 数据管理 | 支持本地数据导出、导入、迁移、备份、恢复和清理。 |
 
-## Gleanx 2.3.0 更新重点
+## Gleanx 2.4.0 更新重点
 
-本次公开版本重点降低长期后台运行时的网络占用，并完善软件内更新和开机启动体验。
+本次公开版本重点完善 AI 授权接入、桌面便签和个人成长体验，并延续低频后台刷新与软件内更新。
+
+- 词元跳动支持浏览器注册、登录并授权，自动获取文本与生图模型，不再需要手动填写接口地址和密钥；文本、生图共用授权，模型分别选择。
+- 桌面便签支持对齐参考线、平滑吸附、重叠提醒及组合绑定，同步移动、置顶和透明度调整更加一致，不再挤占任务栏。
+- 用户等级以动画进度条展示经验；勋章馆提供获得条件、时间、详情、领取核验及佩戴管理。
+- 修复定时壁纸开关保存与跨页面状态恢复，保留既有 AI 配置并改善授权异常恢复提示。
+- 更新源支持 GitHub 与 GitCode 备用源，完整附件发布、验证并启用后可自动回退。
 
 - 降低权益、通知、反馈、公告、模块目录和版本检测的后台请求频率，窗口隐藏或长时间空闲时自动进入低频刷新。
 - 支持 ETag/304 与重复请求合并，内容没有变化时不再反复下载相同数据。
