@@ -35,7 +35,7 @@ Gleanx 是一款面向 Windows 用户的本地效率客户端。它不只是剪�
 
 [Gleanx Releases](https://github.com/dcxa521gi/Gleanx/releases/latest)
 
-当前版本：2.4.0。支持软件内下载、校验和重启安装；GitCode 备用下载源将在完整附件发布并验证后提供。已安装早期同版本测试包的用户请手动覆盖安装。
+当前版本：2.4.0。支持软件内下载、校验和重启安装。[GitCode 备用下载](https://gitcode.com/dcxa521cs/Gleanx/releases)与 GitHub 提供相同版本的完整三件套，已核验公开下载与文件哈希；软件自动回退需由管理员启用备用源。已安装早期同版本测试包的用户请手动覆盖安装。
 
 ## 产品预览
 
